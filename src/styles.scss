@@ -1,1 +1,66 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+/* You can add global styles to this file, and also import other style files */
+
+.status {
+    color: white;
+}
+
+.imageElement {
+    width: 120px;
+    padding: 9px;
+}
+
+.images-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.imageContainer {
+    border: 1px solid white;
+    width: 180px;
+    padding: 1px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cerrar {
+    text-decoration: none;
+    margin-left: 130px;
+    padding-top: -30px;
+    color: white;
+    cursor: pointer;
+}
+
+a {
+    transition: all 0.5s;
+}
+
+a:hover {
+    color: rgb(148, 7, 7);
+    text-decoration: none;
+}
+
+.status {
+    color: white;
+}
+
+.buttonPass {
+    background-color: #6e6f70;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom: 6px;
+    border-radius: 15px;
+    cursor: pointer;
+}
