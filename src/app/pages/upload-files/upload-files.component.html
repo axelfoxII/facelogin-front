@@ -17,7 +17,7 @@
                         <hr style="border-color:azure">
                         <form (ngSubmit)="onSubmit()">
                             <div class="form-group">
-                                <input type="file" class="form-control-file" accept="image/*" name="image" (change)="selectImage($event)"><br><br>
+                                <input type="file" class="form-control-file" accept="image/*" name="image" (change)="selectImage($event)"><br>
                                 <button type="submit" class="btn btn-outline-secondary" [disabled]="btnActive">Upload</button>
                             </div>
                         </form>
@@ -27,15 +27,12 @@
             </div>
             <div class="col-md-7">
                 <div class="card">
-                    <div class="card text-white bg-dark>
+                    <div class="card text-white bg-dark">
                         <div class="card-header bg-secondary">Rostro Procesados</div>
                         <div class="card-body">
                             <div class="images-list" #imagesList></div>
                         </div>
                     </div>
-
-
-
                 </div>
             </div>
         </div>
